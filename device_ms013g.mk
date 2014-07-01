@@ -20,6 +20,12 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
 	fstab.qcom \
+	init.qcom.rc \
+	init.qcom.usb.rc \
+	MSM8226_lpm.rc \
+	ueventd.qcom.rc \
+	charger \
+	charger_res_images
 
 # Philz
 PRODUCT_COPY_FILES += \
